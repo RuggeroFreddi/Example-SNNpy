@@ -6,7 +6,7 @@ Questo repository mostra un esempio d’uso della classe `SNN` di **snnpy**
 L’esperimento implementa una **Liquid State Machine (LSM)** che classifica la **traiettoria di una pallina in un video** tra diverse classi possibili, nonostante **rumore** e **jitter**.
 
 <p align="center">
-  <img src="video/seven_gestures.gif" alt="Sette gesti: esempio di traiettorie generate" width="320" />
+  <img src="video/seven_gestures.gif" alt="Sette gesti: esempio di traiettorie generate" width="480" />
 </p>
 
 
