@@ -1,6 +1,6 @@
 # Liquid State Machine for Trajectory Classification (32×32)
 
-This repository demonstrates how to use the `SNN` class from **snnpy** ([**snnpy** – GitHub repository](https://github.com/RuggeroFreddi/snnpy)) (`from snnpy.snn import SNN, SimulationParams, STDPParams`, installable via `pip install snnpy`). The experiment implements a **Liquid State Machine (LSM)** that classifies the **trajectory of a ball in a video** among several possible classes, despite **noise** and **jitter**.
+This repository demonstrates how to use the `SNN` class from **snnpy** ([**snnpy** – GitHub repository](https://github.com/RuggeroFreddi/snnpy)) (`from snnpy.snn import SNN, SimulationParams, STDPParams`, installable via `pip install snn-reservoir-py==2.0.0`). The experiment implements a **Liquid State Machine (LSM)** that classifies the **trajectory of a ball in a video** among several possible classes, despite **noise** and **jitter**.
 <p align="center">
   <img src="video/seven_gestures.gif" alt="Seven gestures: example of generated trajectories" width="480" />
 </p>
