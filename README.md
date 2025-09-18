@@ -6,9 +6,14 @@ Questo repository mostra un esempio d’uso della classe `SNN` di **snnpy**
 L’esperimento implementa una **Liquid State Machine (LSM)** che classifica la **traiettoria di una pallina in un video** tra diverse classi possibili, nonostante **rumore** e **jitter**.
 
 <p align="center">
-  <img src="video/seven_gestures.gif" alt="Sette gesti: esempio di traiettorie generate" />
+  <img src="video/seven_gestures.gif" alt="Sette gesti: esempio di traiettorie generate" width="320" />
 </p>
 
+
+✅ Cosa prova l’esperimento
+
+Con un’accuratezza media su 10 fold superiore a 0.9, si conferma che una Liquid State Machine è in grado di lavorare con dati sparsi, temporali e molto rumorosi.
+Gli errori residui nella confusion matrix tendono a riguardare la direzione (es. left_right vs right_left) più che la tipologia (lineare vs circolare). L’accuratezza può aumentare generando più esempi per classe.
 ---
 
 ## 🧠 Idea
