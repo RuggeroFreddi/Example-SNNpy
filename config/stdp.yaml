@@ -1,0 +1,12 @@
+# --- STDPParams ---
+enabled: true
+tau_plus: 20.0
+tau_minus: 40.0
+A_plus: 0.000106655             # ~= mean_weight / 90
+# A_minus OMITTED because lock_A_minus: true
+eta: 1.0
+W_max: 0.01439835               # ~= 1.5 * mean_weight
+clip: true
+nearest_neighbor: true
+lock_A_minus: true
+weight_update_rule: multiplicative

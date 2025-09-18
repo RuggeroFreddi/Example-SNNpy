@@ -1,0 +1,23 @@
+# --- SimulationParams ---
+num_neurons: 2000
+num_output_neurons: 35
+
+membrane_threshold: 2.0          # spike threshold
+leak_coefficient: 0.0001         # = 1/10000
+refractory_period: 2
+
+# Topology (Watts–Strogatz small-world)
+is_random_uniform: false
+small_world_graph_p: 0.2
+small_world_graph_k: 400          # even ≥ 2, e.g. int(0.10 * 2000 * 2)
+
+# Synaptic weights init
+mean_weight: 0.0095989
+weight_variance: 5.0              # relative std multiplier used in init
+
+# Optional fields omitted on purpose:
+# duration:
+# input_spike_times:
+# adjacency_matrix:
+# output_neurons:
+# membrane_potentials:
