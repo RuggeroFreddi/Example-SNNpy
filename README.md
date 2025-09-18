@@ -1,5 +1,10 @@
 # Liquid State Machine for Trajectory Classification (32×32)
 
+[![Example Repo](https://img.shields.io/badge/example-repo-blue)](https://github.com/RuggeroFreddi/Example-SNNpy)
+[![PyPI](https://img.shields.io/pypi/v/snn-reservoir-py.svg)](https://pypi.org/project/snn-reservoir-py/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/pypi/pyversions/snn-reservoir-py.svg)](https://pypi.org/project/snn-reservoir-py/)
+
 This repository demonstrates how to use the `SNN` class from **snnpy** ([**snnpy** – GitHub repository](https://github.com/RuggeroFreddi/snnpy)) (`from snnpy.snn import SNN, SimulationParams, STDPParams`, installable via `pip install snn-reservoir-py==2.0.0`). The experiment implements a **Liquid State Machine (LSM)** that classifies the **trajectory of a ball in a video** among several possible classes, despite **noise** and **jitter**.
 <p align="center">
   <img src="video/seven_gestures.gif" alt="Seven gestures: example of generated trajectories" width="480" />
